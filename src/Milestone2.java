@@ -20,7 +20,7 @@ public class Milestone2 {
 		PolyTracer.traceEquilateral(sideLength, sides, true);
 		PolyTracer.traceEquilateral(sideLength, sides, true);
 		
-		/*
+		
 		double trackWidth = 9.2 + 2.6;
 		double wheelDiam = 5.56;
 		DifferentialPilot dp = new DifferentialPilot(wheelDiam, trackWidth, Motor.A, Motor.B);
@@ -28,7 +28,7 @@ public class Milestone2 {
 		dp.rotate(-90.0);
 
 		PolyTracer.traceEquilateral(sideLength, sides, false);
-		PolyTracer.traceEquilateral(sideLength, sides, false);	*/
+		PolyTracer.traceEquilateral(sideLength, sides, false);
 	}
 	
 
