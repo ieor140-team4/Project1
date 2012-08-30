@@ -10,7 +10,7 @@ public class Milestone2 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		MotorsSetAccel(2000);
+		MotorsSetAccel(500);
 		
 		Button.waitForAnyPress();
 		
@@ -20,13 +20,15 @@ public class Milestone2 {
 		PolyTracer.traceEquilateral(sideLength, sides, true);
 		PolyTracer.traceEquilateral(sideLength, sides, true);
 		
+		/*
 		double trackWidth = 9.2 + 2.6;
 		double wheelDiam = 5.56;
 		DifferentialPilot dp = new DifferentialPilot(wheelDiam, trackWidth, Motor.A, Motor.B);
-		dp.rotate(270.0);
+		dp.setRotateSpeed(45);
+		dp.rotate(-90.0);
 
 		PolyTracer.traceEquilateral(sideLength, sides, false);
-		PolyTracer.traceEquilateral(sideLength, sides, false);	
+		PolyTracer.traceEquilateral(sideLength, sides, false);	*/
 	}
 	
 
